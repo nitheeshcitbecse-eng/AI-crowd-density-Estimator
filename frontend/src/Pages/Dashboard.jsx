@@ -55,10 +55,10 @@ export default function Dashboard() {
     setLoading(true);
     try {
       const [analyticsRes, camerasRes, alertsRes, heatmapRes] = await Promise.allSettled([
-        api.getSystemAnalytics(24),
+        api.getSystemAnalytics(56), //56 hours
         api.listCameras({ limit: 20 }),
         api.getAlerts({ limit: 5, status: "active" }),
-        api.getHeatmapData({ period_hours: 1 })
+        api.getHeatmapData({ period_hours: 56 }) // 56 hours
       ]);
 
       // console.log(analyticsRes, camerasRes, alertsRes, heatmapRes);
@@ -138,7 +138,7 @@ export default function Dashboard() {
           </div>
           <button
             onClick={fetchDashboardData}
-            className="ml-4 flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border border-white/8 text-slate-400 hover:text-white text-sm transition-colors"
+            className="ml-4 flex items-center gap-2 px-4 py-2 rounded-xl bg-white/5 border dark:border-white/8 border-black dark:text-slate-400 text-black hover:text-white text-sm transition-colors"
           >
             <RefreshCw size={14} className={loading ? "animate-spin" : ""}/>Refresh
           </button>

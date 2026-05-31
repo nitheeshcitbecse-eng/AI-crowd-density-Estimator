@@ -11,7 +11,7 @@ const NAV = [
   { id: "analytics",  label: "Analytics",        icon: BarChart2       },
   { id: "alerts",     label: "Alerts",           icon: Bell            },
   { id: "reports",    label: "Reports",          icon: FileText        },
-  { id: "locations",  label: "Locations",        icon: MapPin          },
+  // { id: "locations",  label: "Locations",        icon: MapPin          },
   { id: "settings",   label: "Settings",         icon: Settings        },
 ];
 

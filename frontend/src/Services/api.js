@@ -66,7 +66,7 @@ export const api = {
     apiClient.post(`/api/alerts/bulk/resolve?note=${encodeURIComponent(note || "")}`, { alert_ids: alertIds }),
 
   // ── Heatmap ──────────────────────────────────────────────────────────────────
-  getHeatmapData: ({ period_hours = 1, camera_ids } = {}) =>
+  getHeatmapData: ({ period_hours = 24, camera_ids } = {}) =>
     apiClient.get("/api/heatmap/data", {
       params: { period_hours, camera_ids },
     }),

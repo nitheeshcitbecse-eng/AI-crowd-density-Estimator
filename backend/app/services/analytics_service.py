@@ -226,6 +226,8 @@ class AnalyticsService:
                 group_id = {"$dateToString": {"format": "%Y-W%V", "date": "$timestamp"}}
             elif granularity == "monthly":
                 group_id = {"$dateToString": {"format": "%Y-%m", "date": "$timestamp"}}
+            elif granularity == "minute":
+                group_id = {"$dateToString": {"format": "%Y-%m-%d %H:%M","date": "$timestamp"}}
             else:  # hourly
                 group_id = {"$dateToString": {"format": "%Y-%m-%d %H:00", "date": "$timestamp"}}
 

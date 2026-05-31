@@ -44,7 +44,7 @@ async def get_camera_analytics(
 @router.get("/temporal", response_model=dict)
 async def get_temporal_analysis(
     period_hours: int = Query(24, ge=1, le=720, description="Time period in hours"),
-    granularity: str = Query("hourly", description="Granularity: hourly, daily, weekly, monthly"),
+    granularity: str = Query("hourly", description="Granularity: minute, hourly, daily, weekly, monthly"),
     camera_id: Optional[str] = Query(None, description="Optional camera ID for filtering"),
     current_user: dict = Depends(get_current_user)
 ):

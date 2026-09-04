@@ -14,16 +14,10 @@
 
 </div>
 
-## Team Title
-
-**MetriX**  
-**[ Privacy-First AI Innovators ]**
 
 
 
-<a href="https://github.com/MediaTrex/Codorra_2026_Hackathon/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=MediaTrex/Codorra_2026_Hackathon"  />
-</a>
+
 
 ## Project Screenshots
 

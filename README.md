@@ -3,7 +3,6 @@
 **Smart AI-Powered Monitoring for Safer Public Spaces**  
 **Mass Surveillance vs Public Safety Hackathon** | 48-Hour Build
 
-![Project Banner](./docs/images/AI_Powered_Cybersecurity.png)  
 
  *Monitor Density.Preserve Dignity*
 <!-- Replace with actual banner image once designed -->
@@ -20,12 +19,7 @@
 **MetriX**  
 **[ Privacy-First AI Innovators ]**
 
-### Contributors
 
-- **ROSHAN PATEL** - Backend Integration & Team Lead
-- **NABIHG NOORUL ASHIKA B** - System Design & Research
-- **NITHEESH S** - Frontend Design & Integration
-- **VIPUL RAJ SHAH** - AI/ML Intergration 
 
 <a href="https://github.com/MediaTrex/Codorra_2026_Hackathon/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=MediaTrex/Codorra_2026_Hackathon"  />
@@ -88,15 +82,7 @@ Modern smart cities face a critical tension — **mass surveillance for public s
 
 ---
 
-## Project Demo
 
-![UI Walkthrough](./docs/images/CrowdGuard.gif)
-
-## Live Demo
-
-[CrowdGuard Demo Video link](https://drive.google.com/file/d/18k31h3aEPSvc5uT7_2tIN_J6h4u0wNKg/view?usp=sharing)
-
----
 
 ## Tech Stack & Reasoning
 

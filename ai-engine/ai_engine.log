@@ -117,3 +117,34 @@
 2026-05-31 14:08:12,506 - ai-engine - INFO - BackendAPIClient initialized with base URL: http://localhost:8000
 2026-05-31 14:08:12,506 - ai-engine - INFO - AI Engine initialized
 2026-05-31 14:08:12,506 - ai-engine - INFO - AI Engine initialized successfully
+2026-08-28 10:31:29,276 - ai-engine - INFO - AI Engine API starting up
+2026-08-28 10:31:29,279 - ai-engine - INFO - BackendAPIClient initialized with base URL: http://localhost:8000
+2026-08-28 10:31:29,280 - ai-engine - INFO - AI Engine initialized
+2026-08-28 10:31:29,280 - ai-engine - INFO - AI Engine initialized successfully
+2026-08-28 11:12:04,658 - ai-engine - INFO - YOLOv8 model 'yolov8m.pt' loaded successfully
+2026-08-28 11:12:04,659 - ai-engine - INFO - PeopleCounter module initialized
+2026-08-28 11:12:04,659 - ai-engine - INFO - DensityEstimator initialized with capacity: 10
+2026-08-28 11:12:04,687 - ai-engine - INFO - FaceBlur module initialized
+2026-08-28 11:12:04,688 - ai-engine - INFO - AlertGenerator module initialized
+2026-08-28 11:12:04,688 - ai-engine - INFO - VideoProcessor initialized for camera: smoke_test_camera
+2026-08-28 11:12:04,694 - ai-engine - INFO - Processing video: 96 frames at 24 FPS
+2026-08-28 11:12:14,589 - ai-engine - INFO - Frame 5: 4 people, medium density
+2026-08-28 11:12:15,122 - ai-engine - INFO - Frame 10: 4 people, medium density
+2026-08-28 11:12:15,625 - ai-engine - INFO - Frame 15: 4 people, medium density
+2026-08-28 11:12:16,138 - ai-engine - INFO - Frame 20: 4 people, medium density
+2026-08-28 11:12:16,656 - ai-engine - INFO - Frame 25: 4 people, medium density
+2026-08-28 11:12:17,185 - ai-engine - INFO - Frame 30: 4 people, medium density
+2026-08-28 11:12:17,694 - ai-engine - INFO - Frame 35: 4 people, medium density
+2026-08-28 11:12:18,225 - ai-engine - INFO - Frame 40: 4 people, medium density
+2026-08-28 11:12:18,772 - ai-engine - INFO - Frame 45: 4 people, medium density
+2026-08-28 11:12:19,308 - ai-engine - INFO - Frame 50: 4 people, medium density
+2026-08-28 11:12:19,835 - ai-engine - INFO - Frame 55: 4 people, medium density
+2026-08-28 11:12:20,379 - ai-engine - INFO - Frame 60: 4 people, medium density
+2026-08-28 11:12:20,925 - ai-engine - INFO - Frame 65: 4 people, medium density
+2026-08-28 11:12:21,454 - ai-engine - INFO - Frame 70: 4 people, medium density
+2026-08-28 11:12:22,006 - ai-engine - INFO - Frame 75: 4 people, medium density
+2026-08-28 11:12:22,541 - ai-engine - INFO - Frame 80: 4 people, medium density
+2026-08-28 11:12:23,095 - ai-engine - INFO - Frame 85: 4 people, medium density
+2026-08-28 11:12:23,617 - ai-engine - INFO - Frame 90: 4 people, medium density
+2026-08-28 11:12:24,132 - ai-engine - INFO - Frame 95: 4 people, medium density
+2026-08-28 11:12:24,143 - ai-engine - INFO - Video processing complete: {'video_path': 'c:\\Users\\nithe\\OneDrive\\Desktop\\AI-crowd-density-Estimator\\frontend\\public\\videos\\sample-crowd.mp4', 'total_frames': 96, 'processed_frames': 96, 'fps': 24, 'duration_seconds': 4.0, 'total_detections': 19, 'total_alerts': 0, 'alerts': [], 'avg_density': 40.0, 'max_density': 40.0, 'min_density': 40.0}
